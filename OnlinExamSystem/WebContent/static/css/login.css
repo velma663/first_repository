@@ -1,0 +1,199 @@
+@charset "UTF-8";
+.text-right { 
+    font-family:"Calibri";
+    letter-spacing: 0;
+    width:205px;
+    height:31px;
+    position:absolute;
+    left:708px;
+    top:99px;
+    font-size:26px;
+    color:#30455A;
+    line-height:31px;
+}
+
+.text-left {
+font-family:"Calibri";
+width:290px;
+height:36px;
+position:absolute;
+left:176px;
+top:430px;
+font-size:30px;
+font-weight:bold;
+color:#304558;
+}
+
+.text-bottom {
+font-family:"Calibri";
+width:293px;
+height:17px;
+position:absolute;
+left:483px;
+top:699px;
+font-size:12px;
+line-height:22px;
+}
+
+.rectangle_a {
+width:400px;
+height:320px;
+position:absolute;
+left:708px;
+top:146px;
+background:#30455A;
+display:block;
+border:o solid #08c; 
+border-width:0 1px;
+border-radius:2%;
+}
+
+.rectangle_b {
+    width:300px;
+    height:30px;
+    background:#F2DEDE;
+    position:absolute;
+    left:50px;
+    top:20px;
+    border-radius:0.25rem;
+}
+
+.rectangle_b_text_a {
+    height:14px;
+    color:#F54435;
+    font-size:12px;
+    letter-spacing:0px;
+    line-height:14px;
+    position:absolute;
+    left:10px;
+    top:8px;
+}
+.div-user {
+position:absolute;
+left:50px;
+top:58px;
+width:301px;
+height:36px;
+}
+
+.div-password {
+position:absolute;
+left:50px;
+top:114px;
+width:301px;
+height:36px;
+}
+
+.icon {
+width:24px;
+height:24px;
+position:absolute;
+left:10px;
+top:6px;
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+.input {
+width:100%;
+box-sizing:border-box;
+height:36px;
+background:#FFFFFF;
+border:none;
+border-radius:0.25rem;
+padding-left:47px;
+}
+
+input::webkit-input-placeholder,textarea::webkit-input-placeholder
+{/*WebKit browsers*/
+color:#A8A8AA;
+font-size:16px;
+line-height:19px;
+}
+input:-moz-placeholder,textarea:-moz-placeholder
+{/*Firefox 18- */
+color:#A8A8AA;
+font-size:16px;
+line-height:19px;
+}
+input::-moz-placeholder,textarea::-moz-placeholder
+{/*Mozilla Firefox*/
+color:#A8A8AA;
+font-size:16px;
+line-height:19px;
+}
+input:ms-input-placeholder,textarea:ms-input-placeholder
+{/*Internet Explorer*/ 
+color:#A8A8AA;
+font-size:16px;
+line-height:19px;
+}
+
+.icon_error {
+    width:24px;
+    height:24px;
+    background:url(image/Group.png);
+    position:absolute;
+    left:356px;
+}
+
+.submit
+{
+width:301px;
+height:30px;
+background:#FFA113;
+position:absolute;
+left:50px;
+top:180px;
+border:none;
+border-radius:0.25rem;
+color:#FFFFFF;
+font-size:17px;
+ling-height:20px;
+font-family:黑体;
+}
+
+.i-check
+{
+width:16px;
+height:16px;
+position:absolute;
+left:50px;
+top:231px;
+}
+
+.label1
+{
+width:89px;
+height:19px;
+position:absolute;
+left:73px;
+top:231px;
+font-size:16px;
+color:#FFFFFF;
+font-family:"仿宋";
+line-height:19px;
+}
+
+.label2
+{
+    width:124px;
+    height:19px;
+    position:absolute;
+    left:227px;
+    top:231px;
+    font-size:16px;
+    color:#FFFFFF;
+    font-family:"Calibri";
+    line-height:19px;
+}
+
+.border1
+{
+    width:100%;
+    height:1px;
+    margin-top:655.2px;
+    border-bottom:1px solid #000000;
+    opacity:0.86;
+}
+
